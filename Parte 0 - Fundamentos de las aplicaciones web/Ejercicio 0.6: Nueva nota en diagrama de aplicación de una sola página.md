@@ -32,5 +32,5 @@ sequenceDiagram
     server-->>browser: {"message":"note created"}
     deactivate server
 
-    Note right of browser: The SPA version of the application doesn't send form data in the traditional way; instead, it uses JavaScript code retrieved from the server. An event handler is created that generates a new note, adds it to the notes list, re-renders the notes list on the page, and sends the new note to the server.    
+    Note right of browser: The SPA version of the application doesn't send form data in the traditional way, instead, it uses JavaScript code retrieved from the server. An event handler is created that generates a new note, adds it to the notes list, re-renders the notes list on the page, and sends the new note to the server.    
 ```
